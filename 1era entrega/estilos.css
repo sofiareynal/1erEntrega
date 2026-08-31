@@ -1,0 +1,105 @@
+/* selector universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* selector elemento y herencia */
+body {
+  background-color: #F0F7EE;
+  color: #0B1B32;
+}
+
+/* selector ID */
+#header-principal {
+  background-color: #776871;
+  color: #F0F7EE;
+  text-align: center;
+  padding: 40px;
+}
+
+/* selector clase */
+.subtitulo {
+  color: #F0F7EE;
+  margin: 12px;
+}
+
+/* selector descendiente */
+main section {
+  width: 90%;
+  background-color: #F0F7EE;
+  padding: 30px;
+  margin: 20px;
+}
+
+/* hijo directo */
+section > h2 {
+  color: #91A8A4;
+  margin: 10px;
+}
+
+section > h3 {
+  color: #776871;
+  margin: 15px;
+}
+
+/* hermano adyacente */
+h2 + p {
+  color: #91A8A4;
+  margin: 10px;
+}
+
+/* hermanos generales */
+h3 ~ ul {
+  background-color: #AFDEDC;
+  padding: 25px;
+  margin: 15px;
+}
+
+h3 ~ ol {
+  background-color: #F0F7EE;
+  padding: 25px;
+  margin: 15px;
+}
+
+/* artistas */
+.artistas {
+  width: 250px;
+  height: 90px;
+  background-color: #776871;
+  padding: 15px;
+  margin: 10px;
+}
+
+/* títulos artistas */
+.artistas h3 {
+  color: #91A8A4;
+}
+
+/* spotify google maps */
+.contenedor-media {
+  width: 95%;
+  margin: 15px;
+}
+
+/* playlist */
+.spotify {
+  width: 100%;
+  height: 352px;
+}
+
+/* mapa */
+.mapa {
+  width: 100%;
+  height: 300px;
+}
+
+/* pie de página */
+footer {
+  background-color: #91A8A4;
+  color: #F0F7EE;
+  text-align: center;
+  padding: 25px;
+  margin: 20px;
+}
